@@ -782,4 +782,177 @@ form {
   font-size: 23px;
   color: #000;
   margin-top: 23px;
+}
+
+.contact {
+  padding-top: 84px;
+}
+
+.contact_text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 209%;
+  color: #848484;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.span_text {
+  color: #e47500;
+}
+
+.contact_title {
+  font-weight: 600;
+  font-size: 33px;
+  line-height: 180%;
+  text-align: center;
+  color: #222;
+  padding-bottom: 13px;
+}
+
+.contact_text2 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 187%;
+  text-align: center;
+  color: #898989;
+  padding-bottom: 93px;
+}
+
+.contact_img {
+  margin-right: auto;
+  margin-left: auto;
+  width: 1060px;
+  margin-left: 120px;
+  text-align: center;
+  padding-bottom: 62px;
+}
+
+.contact_list {
+  gap: 202px;
+  margin-left: 120px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 166px;
+}
+
+.contact2_text1 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 189%;
+  color: #000;
+}
+
+.hello {
+  height: 858px;
+  background: #f5f5f5;
+}
+
+.hello_title {
+  padding-top: 54px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 189%;
+  color: #000;
+}
+
+.hello_text {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 189%;
+  text-align: center;
+  color: #777;
+  padding-bottom: 79px;
+}
+
+.input1_btn {
+  border: 0.6px solid #cecece;
+  border-radius: 9px;
+  width: 322px;
+  height: 56px;
+  background: #fff;
+}
+
+.label1_text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 175%;
+  letter-spacing: -0.02em;
+  color: #4f4f4f;
+  margin-right: 260px;
+}
+
+.inputs_block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  gap: 27px;
+  margin-left: 300px;
+}
+
+.inputs_block3 {
+  text-align: center;
+}
+
+.input1_btn1 {
+  border: 0.6px solid #cecece;
+  border-radius: 9px;
+  width: 671px;
+  height: 56px;
+  background: #fff;
+  margin-left: 20px;
+}
+
+.label1_text1 {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 175%;
+  letter-spacing: -0.02em;
+  color: #4f4f4f;
+  margin-right: 570px;
+}
+
+.inputs_block4 {
+  text-align: center;
+  padding-bottom: 51px;
+}
+
+.label1_text2 {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 175%;
+  letter-spacing: -0.02em;
+  color: #4f4f4f;
+  margin-right: 600px;
+}
+
+.input1_btn2 {
+  border: 0.6px solid #cecece;
+  border-radius: 9px;
+  width: 671px;
+  height: 232px;
+  background: #fff;
+  margin-left: 20px;
+}
+
+.hello_btn1 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 204%;
+  color: #fff;
+  border-radius: 10px;
+  width: 193px;
+  padding: 10px 48px;
+  background: #dc7000;
+}
+
+.btn_block {
+  text-align: right;
+  margin-right: 280px;
 }/*# sourceMappingURL=main.css.map */
