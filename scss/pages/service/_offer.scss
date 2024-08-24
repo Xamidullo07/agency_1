@@ -1,0 +1,55 @@
+.offer_section {
+
+    padding-bottom: 182px;
+
+    &__blok {
+        display: flex;
+        gap: 87px;
+        align-items: center;
+    }
+
+    &__img {
+        background-image: url(/img/offer_vidyo_bcimg.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    &__title {
+        font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 180%;
+        color: #222;
+        margin-bottom: 12px;
+        width: 383px;
+    }
+
+    &__text {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 187%;
+        color: #525252;
+        margin-bottom: 28px;
+        width: 427px;
+    }
+
+    &_item__text {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 187%;
+        color: #525252;
+        margin-bottom: 19px;
+        margin-left: 30px;
+    }
+
+    &__item{
+        background-image: url(/img/bx_bxs-check-circle.svg);
+        background-repeat: no-repeat;
+    
+    }
+
+
+
+}

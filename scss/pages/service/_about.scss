@@ -1,0 +1,53 @@
+.about_section {
+    padding-bottom: 189px;
+
+
+    &__title {
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 30px;
+        color: #000;
+        margin-bottom: 43px;
+        width: 472px;
+    }
+
+    &__text {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 17px;
+        color: #515151;
+        margin-bottom: 48px;
+        width: 536px;
+    }
+
+    &__subtext {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 17px;
+        color: #515151;
+        margin-bottom: 46px;
+        width: 508px;
+    }
+
+
+    &__blok {
+        display: flex;
+        gap: 138px;
+        // align-items: center;
+    }
+
+
+    &__btn {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 16px;
+        color: #fff;
+        background: #dc7000;
+        padding: 13px 43px;
+
+    }
+
+    &__img{
+        width: 496px;
+    }
+}

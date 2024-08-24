@@ -1,0 +1,147 @@
+.customer_section {
+    padding-bottom: 60px;
+    background: #F5F5F5;
+
+    &__title {
+        font-family: var(--second-family);
+        font-weight: 500;
+        font-size: 35px;
+        line-height: 143%;
+        text-align: center;
+        color: #0b132a;
+        padding-top: 88px;
+        margin-bottom: 20px;
+        width: 447px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    &__text {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 187%;
+        text-align: center;
+        color: #525252;
+        margin-bottom: 68px;
+        width: 555px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    &__list {
+        display: flex;
+        gap: 50px;
+
+    }
+
+    &__content {
+        display: flex;
+        align-items: center;
+        margin-bottom: 15px;
+
+    }
+
+    &__item {
+        border: 2px solid #ddd;
+        border-radius: 10px;
+        width: 400px;
+        padding: 30px;
+        transition: 0.4s;
+
+        &:hover {
+            border: 2px solid #dc7000;
+            background: #fff;
+        }
+
+    }
+
+    &_item__img {
+        margin-right: 20px;
+    }
+
+    &_item__subtitle {
+        margin-right: 108px;
+        font-family: var(--second-family);
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 167%;
+        color: #0b132a;
+    }
+
+    &_item__text {
+        font-family: var(--second-family);
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 214%;
+        color: #4f5665;
+    }
+
+
+    &_item__subtext {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 187%;
+        color: #525252;
+        width: 340px;
+    }
+
+
+    &_item__star {
+        font-family: var(--second-family);
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 187%;
+        color: #0b132a;
+        padding-right: 22px;
+        background-image: url(/img/star.svg);
+        background-repeat: no-repeat;
+        background-position: 30px;
+    }
+
+
+    &__bottom {
+        margin-top: 60px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+
+    &__btns {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+
+    // &__btns img{
+
+    // }
+
+    &__subitem {
+        width: 15px;
+        height: 15px;
+        border: 2px solid #dde0e4;
+        border-radius: 100%;
+        background: #dde0e4;
+    }
+
+
+
+    &__subitem:nth-child(1) {
+        width: 45px;
+        height: 18px;
+        border-radius: 20px;
+        background: #DC7000;
+    }
+
+    &__list {
+        display: flex;
+        gap: 15px;
+    }
+
+}
