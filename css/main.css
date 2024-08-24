@@ -259,7 +259,6 @@ body {
           justify-content: center;
   gap: 231px;
   border-radius: 10px;
-  width: 1140px;
   height: 200px;
   background: #fff;
   -webkit-box-shadow: #4f5665;
@@ -378,6 +377,10 @@ body {
   color: #fff;
   background: #dc7000;
   padding: 13px 43px;
+}
+.about_section__btn:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
 }
 .about_section__img {
   width: 496px;

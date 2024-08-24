@@ -44,8 +44,14 @@
         color: #fff;
         background: #dc7000;
         padding: 13px 43px;
+ 
 
+        &:hover{
+            transform: scale(1.05);
+        }
     }
+
+
 
     &__img{
         width: 496px;
